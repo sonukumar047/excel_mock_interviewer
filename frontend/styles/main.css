@@ -1,0 +1,19 @@
+/* Imports for modular CSS files */
+@import url('https://cdn.tailwindcss.com');
+@import url('interview.css');
+@import url('components.css');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f3f4f6;
+    color: #1f2937;
+}
+
+/* Base styles for the main container */
+.bg-gray-100 {
+    background-color: #f3f4f6;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Excel Interviewer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/interview.css">
+    <link rel="stylesheet" href="./styles/components.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-inter antialiased">
+    <div class="min-h-screen flex items-center justify-center p-4 md:p-8">
+        <div class="w-full max-w-2xl bg-white rounded-2xl shadow-xl flex flex-col h-[80vh] overflow-hidden border border-gray-200">
+            <!-- Header -->
+            <div class="bg-gradient-to-r from-blue-500 to-purple-600 text-white p-6 rounded-t-2xl shadow-md">
+                <h1 class="text-3xl font-bold text-center">AI Excel Interviewer</h1>
+                <p class="text-center mt-2 text-sm opacity-80">Your AI-powered mock interview starts now. Good luck!</p>
+            </div>
+
+            <!-- Chat Container -->
+            <div id="chat-container" class="flex-1 overflow-y-auto p-6 space-y-4">
+                <div id="chat-messages" class="flex flex-col space-y-4">
+                    <!-- Chat messages will be dynamically inserted here -->
+                </div>
+            </div>
+            
+            <!-- User Input Form -->
+            <div class="bg-gray-50 p-4 border-t border-gray-200">
+                <form id="chat-form" class="flex space-x-3">
+                    <input type="text" id="user-input" placeholder="Type your answer here..." autocomplete="off" class="flex-1 p-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors">
+                    <button type="submit" id="send-button" class="bg-blue-600 text-white p-3 rounded-xl font-semibold shadow-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-transform transform hover:scale-105 active:scale-95">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                            <path d="M3.478 2.405a.75.75 0 00-.926.94l2.432 7.945a.75.75 0 00.926.94L22.515 12l-16.14 5.61a.75.75 0 00-.926.94l-2.432 7.945a.75.75 0 001.029.897L23.475 12 4.507 2.508a.75.75 0 00-1.029-.093z" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>
