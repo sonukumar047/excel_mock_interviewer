@@ -76,29 +76,6 @@ uvicorn backend.main:app --reload
 -   **Deployment**: Docker, Docker Compose
 
 
-## 📁 Project Structure
-
-excel_mock_interviewer/
-├── .gitignore
-├── README.md
-├── requirements.txt
-├── Dockerfile
-├── docker-compose.yml
-├── backend/
-│ ├── api/
-│ ├── agents/
-│ ├── config/
-│ ├── models/
-│ ├── services/
-│ └── utils/
-├── frontend/
-│ ├── assets/
-│ ├── scripts/
-│ └── styles/
-├── tests/
-└── docs/
-
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please follow these steps:
