@@ -2,10 +2,6 @@
 
 An intelligent conversational AI system that conducts mock interviews to assess Excel proficiency using Groq's lightning-fast Language Processing Unit (LPU) Inference Engine.
 
-![Project Demo](https://place-holder.com/800x400) <!-- Replace with an actual GIF or image of your project -->
-
----
-
 ## 🎯 Core Features
 
 -   **Multi-Agent Architecture**: Specialized agents for interview management, question generation, answer evaluation, and feedback generation.
@@ -65,8 +61,6 @@ redis-server
 uvicorn backend.main:app --reload
 
 
----
-
 ## 🛠️ Technology Stack
 
 -   **Backend**: FastAPI, Python
@@ -86,9 +80,4 @@ Contributions are welcome! Please follow these steps:
 4.  Push to the branch (`git push origin feature/YourFeature`).
 5.  Open a Pull Request.
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the `LICENSE` file for details.
 
