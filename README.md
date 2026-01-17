@@ -75,7 +75,6 @@ uvicorn backend.main:app --reload
 -   **State Management**: Redis
 -   **Deployment**: Docker, Docker Compose
 
----
 
 ## 📁 Project Structure
 
@@ -99,8 +98,6 @@ excel_mock_interviewer/
 ├── tests/
 └── docs/
 
-
----
 
 ## 🤝 Contributing
 
